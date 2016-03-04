@@ -16,8 +16,6 @@
 
 python /home/pi/go.py &
 
-python /home/pi/dbo.py &
-
 # Print the IP address
 _IP=$(hostname -I) || true
 if [ "$_IP" ]; then
